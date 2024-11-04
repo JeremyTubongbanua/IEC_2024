@@ -6,10 +6,34 @@ The manager just needs to create a task.
 
 Then the employees are assigned optimally.
 
+## Home Page
+
+![alt text](image-2.png)
+
+## Dashboard Page
+
+![alt text](image-3.png)
+
 ## Employee Dashboard
 
-![alt text](image.png)
+![alt text](image-4.png)
 
 ## Manager Dashboard
 
-![alt text](image-1.png)
+![alt text](image.png)
+
+## Running it
+
+Frontend:
+
+```bash
+npm i && npm run dev
+```
+
+Backend:
+
+```bash
+pip3 install flask flask_cors
+cd backend
+python3 server.py
+```
